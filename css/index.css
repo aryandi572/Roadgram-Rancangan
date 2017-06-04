@@ -1,0 +1,90 @@
+.site-logo a.brand {
+	color: #616161;
+	font-size: 25px;
+
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
+
+body{
+	background-color: #E6E6E6 ;
+}
+
+#wrapper {
+margin: auto;
+width: 850px;
+height: 900px;
+background-color: #FEFEFE;
+}
+
+#container{
+    position:relative;
+}
+
+.imagelogo{
+  width:187px;
+  height:45px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    width:100%;
+    min-height:40px;
+    background-color: #000000;
+}
+
+.fontnav{
+	font-family: sans-serif;
+	color: #00AAFA;
+}
+
+.search{
+	padding: 5px 45px 5px 35px; /* Atas kanan bawah kiri*/
+	margin: 10px;
+	background: url('../images/search1.png') no-repeat 11px 7px; */
+}
+
+.rounded{
+	border-radius: 15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+
+input[type=text]{
+	color:#4788d5;
+}
+
+input[type=button], input[type=button]:hover{
+	position:relative;
+	left:-6px;
+	border:1px solid #adc5cf;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #e4f1f9 0%, #d5e7f3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f1f9), color-stop(100%,#d5e7f3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* IE10+ */
+	background: linear-gradient(top, #e4f1f9 0%,#d5e7f3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f1f9', endColorstr='#d5e7f3',GradientType=0 ); /* IE6-9 */
+	color:#7da2aa;
+	cursor: pointer;
+}
+
+.light{
+	width:95%;
+	height:50px;
+	/*background: url("../images/light_grey.jpg"); */
+}
+
+.light input[type=text]{
+	border:1px solid #4992e9;
+	background-color:#ffffff;
+}
